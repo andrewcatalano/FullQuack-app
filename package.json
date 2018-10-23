@@ -1,5 +1,5 @@
 {
-  "name": "Codesmith Connect",
+  "name": "Codesmith_Connect",
   "version": "1.0.0",
   "description": "Social Network for Codesmith Devs",
   "main": "server.js",
