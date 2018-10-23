@@ -1,7 +1,7 @@
 {
-  "name": "devconnector",
+  "name": "Codesmith Connect",
   "version": "1.0.0",
-  "description": "Social network for developers",
+  "description": "Social Network for Codesmith Devs",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
