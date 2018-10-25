@@ -59,8 +59,7 @@ const ProfileSchema = new Schema({
       default: false,
     },
     description: {
-      type: Boolean,
-      default: false,
+      type: String,
     },
   }],
   education: [{
@@ -88,8 +87,7 @@ const ProfileSchema = new Schema({
       default: false,
     },
     description: {
-      type: Boolean,
-      default: false,
+      type: String,
     },
   }],
   social: {
