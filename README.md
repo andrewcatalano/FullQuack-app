@@ -5,7 +5,7 @@
 4. Added **/config/keys.js** (which holds Mongoose hosted mLab URI) to .gitignore file to avoid accidentally giving away mlab credentials. When you clone/fork, add the following config/keys.js file: <blockquote>module.exports = {
   mongoURI: 'mongodb://localhost/DevNetwork',
   secretOrKey: 'secret'
-}</blockquote>Jonathan will pass along actual mlab credentials in person.. 
+}</blockquote>Jonathan will pass along actual mlab credentials in person...
 
 ## FullQuack Previous Backend Route Directory
 
