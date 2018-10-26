@@ -1,5 +1,5 @@
 ## Latest Changes
-1. Added Create React App
+1. Added Create-React-App, took out boilerplate
 2. Installed/scripted **concurrently** package (To Run Front + Backend Servers, in main dir, "npm run dev").
 3. Setup **proxy** in package.json to shorten server http requests urls, i.e., axios.get("/api/posts") as opposed to axios.get("http://localhost:5000/api/posts)
 4. Added **/config/keys.js** (which holds Mongoose hosted mLab URI) to .gitignore file to avoid accidentally giving away mlab credentials. When you clone/fork, add the following config/keys.js file: <blockquote>module.exports = {
@@ -8,6 +8,9 @@
 }</blockquote>Jonathan will pass along actual mlab credentials in person...
 5. Added react-router-dom package, created components for splash page and registration page/route. (Functional Client, fields not typeable yet).
 6. Completed 'Success' Routes for Login/Registration, saved jwt token to Local Storage. 
+7. New NPM packages (on client), react-router-dom, axios, jwt-decode. 
+8. 
+ 
 ## FullQuack Previous Backend Route Directory
 
 ### Backend (MongoDB, Express.js, Node.js) 
