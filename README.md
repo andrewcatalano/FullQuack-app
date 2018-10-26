@@ -6,7 +6,7 @@
   mongoURI: 'mongodb://localhost/DevNetwork',
   secretOrKey: 'secret'
 }</blockquote>Jonathan will pass along actual mlab credentials in person...
-5. Created a Joa
+5. Created a Jonathan Branch to try and get some REACT + backend connectivity.
 
 ## FullQuack Previous Backend Route Directory
 

@@ -9,15 +9,16 @@ const posts = require('./routes/api/posts');
 
 const app = express();
 
-// Body parser middleware
+// Body parser setup
 app.use(bodyParser.urlencoded({
   extended: false
 }));
 app.use(bodyParser.json());
-// DB Config
+
+// DB Keys (mLab not incorporated)
 const db = require('./config/keys').mongoURI;
 
-// Connect to MongoDB
+// MongoConnect
 mongoose
   .connect(db)
   .then(() => console.log('MongoDB Connected'))
