@@ -46,7 +46,7 @@ router.post('/register', (req, res) => {
         const avatar = gravatar.url(req.body.email, {
           s: '200', // Size
           r: 'pg', // Rating
-          d: 'identicon' // Default
+          d: 'retro' // Default
         });
 
         const newUser = new User({
@@ -70,7 +70,7 @@ router.post('/register', (req, res) => {
     })
 });
 
-// @route   GET api/users/login
+// @route   POST api/users/login
 // @desc    Login User / Returning JWT Token
 // @access  Public
 router.post('/login', (req, res) => {
