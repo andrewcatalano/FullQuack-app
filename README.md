@@ -7,6 +7,7 @@
   secretOrKey: 'secret'
 }</blockquote>Jonathan will pass along actual mlab credentials in person...
 5. Added react-router-dom package, created components for splash page and registration page/route. (Functional Client, fields not typeable yet).
+6. TODO Install jwt-decode package to decode jwt. 
 ## FullQuack Previous Backend Route Directory
 
 ### Backend (MongoDB, Express.js, Node.js) 
