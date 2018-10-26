@@ -6,7 +6,7 @@
   mongoURI: 'mongodb://localhost/DevNetwork',
   secretOrKey: 'secret'
 }</blockquote>Jonathan will pass along actual mlab credentials in person...
-
+5. Added react-router-dom package, created components for splash page and registration page/route. (Functional Client, fields not typeable yet).
 ## FullQuack Previous Backend Route Directory
 
 ### Backend (MongoDB, Express.js, Node.js) 
