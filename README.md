@@ -2,10 +2,11 @@
 1. Added Create React App
 2. Installed/scripted **concurrently** package (To Run Front + Backend Servers, in main dir, "npm run dev").
 3. Setup **proxy** in package.json to shorten server http requests urls, i.e., axios.get("/api/posts") as opposed to axios.get("http://localhost:5000/api/posts)
-4. Added **/config/keys.js** (which holds Mongoose hosted mLab URI) to .gitignore file to avoid accidentally giving away mlab credentials. When you clone/fork, add the following config/keys.js file: <blockquote>module.exports = {
+4. When you clone/fork, config/keys.js MongoURL is currently set to localhost (to avoid mLab credential sharing) file: <blockquote>module.exports = {
   mongoURI: 'mongodb://localhost/DevNetwork',
   secretOrKey: 'secret'
 }</blockquote>Jonathan will pass along actual mlab credentials in person...
+5. Created a Joa
 
 ## FullQuack Previous Backend Route Directory
 
